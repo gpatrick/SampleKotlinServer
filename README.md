@@ -5,4 +5,7 @@ In order to run it, please:
 * in the margin, please click the Kotlin icon to beside the main function.
 * confirm its running by visiting http://localhost:4567/messages
 
+If it's working, you should see output similar to:
+![Sample Server Startup Logs](serverlogs.png)
+
 Once you have this working, please try the [KotlinJS based client](https://github.com/gpatrick/SampleKotlinClient.git)
