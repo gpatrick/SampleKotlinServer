@@ -103,7 +103,8 @@ fun setHeader(header: String, request: Request, response: Response) {
 
 
 /**
- * Ensures that all callers can be serviced by setting Access-Control-Allow-Origin to all (*)
+ * Ensures that all callers can be serviced by setting Access-Control-Allow-Origin to all (*).
+ * This call is interesting, because it demonstrates the use of a lambda function.
  *
  * @param http the Spark Http object used to service web requests
  */
